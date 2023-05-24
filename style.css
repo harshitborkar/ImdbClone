@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+#search-input{
+    margin-left: 41%;
+    margin-top: 114px;
+    padding-left: 59px;
+    padding-right: 59px;
+    text-align: center;
+}
+#imdb-logo{
+    display: block;
+    margin-left: 47%;
+    margin-bottom: -111px;
+    margin-top: 153px;
+}
+#fav{
+    margin-left: 22rem;
+    margin-top: -58px;
+    text-align: center;
+    
+} 
+#fav h4{
+    color: white;
+}
