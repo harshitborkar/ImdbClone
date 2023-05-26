@@ -1,5 +1,5 @@
     const apiKey="e149e5d1";
-const apiBaseUrl="http://www.omdbapi.com/?t=";
+const apiBaseUrl="https://www.omdbapi.com/?t=";
 let search=document.getElementById("search-input");
 let movieGrid=document.getElementById("movie-grid");
 
