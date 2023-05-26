@@ -33,7 +33,7 @@ function movieDetails(event){
 search.addEventListener("input",(e)=>{
  const fetchApi=async function(){
     
-    const response=await fetch(`http://www.omdbapi.com/?t=${e.target.value}&apikey=${apiKey}`);
+    const response=await fetch(`https://www.omdbapi.com/?t=${e.target.value}&apikey=${apiKey}`);
     const data=await response.json();
     
     let results=JSON.parse(localStorage.getItem("results"))||[];
